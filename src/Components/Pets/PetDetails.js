@@ -12,7 +12,7 @@ export default function PetDetails({val}){
                    <h3 style={{width:280}}>{val.text}</h3>
                    <div className={styles.petLikeDiv}>
                    <img className={styles.like} src={like} alt=
-                   "like pic" />
+                   "likePic" />
                    <p style={{margin:5}}>{val.likes}</p>
                    </div>
                    <Tags val={val} />
