@@ -1,5 +1,5 @@
 import './App.css';
-import CardDisplay from "./Components/Shared/CardDisplay"
+import CardDisplay from "./Components/CardDisplay"
 
 function App() {
   return (

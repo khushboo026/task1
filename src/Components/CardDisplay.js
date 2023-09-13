@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import styles from './CardDisplay.module.css';
-import PetDetails from "../Pets/PetDetails";
-import Owner from "./Owner.js"
+import PetDetails from "./Pets/PetDetails";
+import Owner from "./Shared/Owner.js"
 
 const ENDPOINT = "https://dummyapi.io/data/v1/post?limit=10"
 
