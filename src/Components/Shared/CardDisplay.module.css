@@ -1,0 +1,21 @@
+.cardHolder{
+    display:flex;
+    flex-direction: column;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    list-style-type: none;  
+}
+
+.card{
+    width: auto;
+    max-width: 100%;
+    height: 300px;
+    background-color: pink;
+    border: 20px solid white;
+}
+
+
+

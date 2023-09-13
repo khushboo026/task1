@@ -1,0 +1,17 @@
+.tagBox{
+    border: 2px solid black;
+    padding: 2px;
+    margin-right: 3px;
+    margin-top: 3px; 
+    width: 80px;  
+    border-radius: 10%;
+}
+
+.tagDiv{
+    display: flex;
+    flex-direction: row;
+}
+
+.tagDiv>*{
+    flex: 0 0 40px;
+}

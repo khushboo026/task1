@@ -1,0 +1,28 @@
+.petImage{
+    width: 200px;
+    height:200px;
+    border-left: 70px solid pink;
+    border-right: 40px solid pink;
+}
+
+.petDetails{
+    display: flex;
+    flex-direction: column;
+}
+
+.like{
+    width:30px;
+    height: 30px;
+    mix-blend-mode: multiply;
+}
+
+.petLikeDiv{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.details{
+    display: flex;
+    flex-direction: row;
+}

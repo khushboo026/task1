@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import ApiCall from "../src/Components/apiCall"
+import CardDisplay from "./Components/Shared/CardDisplay"
 
 function App() {
   return (
     <div className="App">
-      <ApiCall />
+      <CardDisplay />
     </div>
   );
 }
