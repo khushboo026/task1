@@ -9,11 +9,10 @@ async function fetcher() {
     const response = await fetch(ENDPOINT, {
         method: "GET",
         headers: {
-            "app-id": "64eefdc7f12e9e4a108da33f"
+            "app-id": process.env.REACT_APP_ID
         }
     })
     const json = await response.json();
-    
     return json;
   }
  
